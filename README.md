@@ -4,6 +4,10 @@ The goal of this project is to visualize various sentiment and exploratory analy
  View this app in action [here](https://airline-sentiment.herokuapp.com)
  
 ## Demo
+Here are some demos on how to use the app:
+![Demo 1](https://github.com/richardcsuwandi/airline-sentiment/blob/master/demos/demo1.gif?raw=true)
+![Demo 2](https://github.com/richardcsuwandi/airline-sentiment/blob/master/demos/demo2.gif?raw=true)
+![Demo 3](https://github.com/richardcsuwandi/airline-sentiment/blob/master/demos/demo3.gif?raw=true)
  
 ## About the Dataset
 The dataset was scraped from Twitter in February of 2015 and contributors were asked to first classify positive, negative, and neutral tweets, 
