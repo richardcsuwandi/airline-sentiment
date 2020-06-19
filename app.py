@@ -22,14 +22,16 @@ def main():
     # Show random tweet
     st.sidebar.subheader("Show Random Tweet")
     random_tweet = st.sidebar.radio("Sentiment", ("positive", "neutral", "negative"))
-    st.sidebar.markdown(data.query("airline_sentiment == @random_tweet")[["text"]].sample(n=1).iat[0, 0])
+    if not st.sidebar.checkbox("Hide", True, key='0'):
+        st.subheader(f"Random {random_tweet.capitalize()} Tweet")
+        st.header(data.query("airline_sentiment == @random_tweet")[["text"]].sample(n=1).iat[0, 0])
 
     # Number of tweets by sentiment
     st.sidebar.subheader("Number of Tweets by Sentiment")
-    select = st.sidebar.selectbox("Visualization Type", ["Bar Plot", "Pie Chart"], key="1")
+    select = st.sidebar.selectbox("Visualization Type", ["Bar Plot", "Pie Chart"])
     sentiment_count = data["airline_sentiment"].value_counts()
     sentiment_count = pd.DataFrame({"Sentiment":sentiment_count.index, "Tweets":sentiment_count.values})
-    if not st.sidebar.checkbox("Hide", True):
+    if not st.sidebar.checkbox("Hide", True, key='1'):
         st.subheader("Number of Tweets by Sentiment")
         if select == "Bar Plot":
             fig = px.bar(sentiment_count, x="Sentiment", y="Tweets", color="Tweets")
