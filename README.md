@@ -7,5 +7,4 @@ The goal of this project is to visualize various sentiment and exploratory analy
  
 ## About the Dataset
 The dataset was scraped from Twitter in February of 2015 and contributors were asked to first classify positive, negative, and neutral tweets, 
-followed by categorizing negative reasons (such as "late flight" or "rude service"). The dataset originally came from [Crowdflower's Data for Everyone library](
-https://appen.com/resources/datasets/).
+followed by categorizing negative reasons (such as "late flight" or "rude service"). More details about the dataset can be found [here](https://www.kaggle.com/crowdflower/twitter-airline-sentiment).
