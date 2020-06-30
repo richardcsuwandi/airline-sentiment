@@ -48,8 +48,6 @@ def main():
         st.subheader("Tweet Locations Based on Time of Day")
         st.markdown(f"{len(selected_data)} tweets between {hour}:00 and {(hour + 1) % 24}:00")
         st.map(selected_data)
-        if st.sidebar.checkbox("Show raw data", False):
-            st.write(selected_data)
 
     # Number of tweets for each airline
     st.sidebar.subheader("Number of Tweets for Each Airline")
