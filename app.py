@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 def main():
     st.title("Sentiment Analysis on Tweets about US Airlines ✈️")
     st.sidebar.title("Sentiment Analysis on Tweets about US Airlines ✈️")
-    st.markdown("By Richard Cornelius Suwandi")
-    st.sidebar.markdown("By Richard Cornelius Suwandi")
+    st.markdown("### By [Richard Cornelius Suwandi](https://github.com/richardcsuwandi)")
+    st.sidebar.markdown("By [Richard Cornelius Suwandi](https://github.com/richardcsuwandi)")
 
     @st.cache(persist=True)
     def load_data():
