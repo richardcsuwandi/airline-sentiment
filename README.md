@@ -10,6 +10,6 @@ Here are some demos on how to use the app:
 ![Demo 3](https://github.com/richardcsuwandi/airline-sentiment/blob/master/demos/demo3.gif?raw=true)
  
 ## About the Dataset
-The dataset was scraped from Twitter in February 2015 and contributors were asked to classify positive, negative, and neutral tweets, 
+The dataset was scraped from Twitter in February 2015 and contributors were first asked to classify positive, negative, and neutral tweets, 
 followed by categorizing negative reasons (such as "late flight" or "rude service"). 
 More details about the dataset can be found [here](https://www.kaggle.com/crowdflower/twitter-airline-sentiment)
