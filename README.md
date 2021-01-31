@@ -4,7 +4,7 @@ The goal of this project is to visualize various sentiment and exploratory analy
 
 View this app in action here:
 
-[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](hhttps://airline-sentiment.herokuapp.com)]
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://airline-sentiment.herokuapp.com)
 
  
 ## Demo
