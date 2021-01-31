@@ -1,7 +1,11 @@
 # Sentiment Analysis on Tweets about US Airlines
 This project is one of my machine learning and data-driven web apps made using Streamlit. 
 The goal of this project is to visualize various sentiment and exploratory analysis on tweets about US airlines.
-View this app in action [here](https://airline-sentiment.herokuapp.com)
+
+View this app in action here:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](hhttps://airline-sentiment.herokuapp.com)
+
  
 ## Demo
 Here are some demos on how to use the app:
